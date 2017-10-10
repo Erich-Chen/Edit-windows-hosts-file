@@ -4,7 +4,7 @@ The scipt will open hosts file (%systemroot%\system32\drivers\etc\hosts) with no
 Very tiny update based on the discussion at stackoverflow:  
 https://stackoverflow.com/questions/7044985/how-can-i-auto-elevate-my-batch-file-so-that-it-requests-from-uac-administrator/12264592#12264592
 
-```
+```winbatch
 ::::::::::::::::::::::::::::
 goto elevate
 :START
